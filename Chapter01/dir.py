@@ -1,7 +1,6 @@
-# In this program, 
-# we check if the number is positive or
-# negative or zero and 
-# display an appropriate message
+# Dalam program ini, 
+# kami memeriksa apakah angkanya positif atau negatif atau nol dan
+# tampilkan pesan yang sesuai
 
 num = 1
 
