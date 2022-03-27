@@ -1,12 +1,12 @@
 class namakelas:
     common = 10
-    def __init__ (self):
+    def __init__ (self): #memanggil constructor
         self.myvariable = 3
-    def myfunction (self, arg1, arg2):
+    def myfunction (self, arg1, arg2):  #instance method
         return self.myvariable
 
 instance = namakelas()
-print("instance.myfunction(1, 2)" , instance.myfunction(1, 2))
+print("instance.myfunction(1, 2)" , instance.myfunction(1, 2)) #memanggil instance method
 
 instance2 = namakelas()
 print("instance.common ",instance.common)
@@ -36,10 +36,10 @@ class AnotherClass (namakelas):
         print (arg1)
 
 instance = AnotherClass ("hello")
-print("instance.myfunction (1, 2) " , instance.myfunction (1, 2))
+print("instance.myfunction (1, 2) " , instance.myfunction (1, 2)) #memanggil instance method
 
 instance.test = 10
-print("instance.test " , instance.test)
+print("instance.test " , instance.test) #memanggil instance method
 
 
 

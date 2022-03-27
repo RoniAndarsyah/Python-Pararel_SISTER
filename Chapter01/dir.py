@@ -2,7 +2,7 @@
 # kami memeriksa apakah angkanya positif atau negatif atau nol dan
 # tampilkan pesan yang sesuai
 
-num = 1
+num = 0
 
 # Try these two variations as well:
 # num = 0
@@ -23,7 +23,8 @@ else:
 numbers = [6, 6, 3, 8, -3, 2, 5, 44, 12]
 
 # variable to store the sum
-sum = 0
+sum = -35
+# sum = 0
 
 # iterate over the list
 for val in numbers:
@@ -32,3 +33,9 @@ for val in numbers:
 # Output: The sum is 48
 print("The sum is", sum)
 
+if sum > 0:
+    print("Positive number")
+elif sum == 0:
+    print("Zero")
+else:
+    print("Negative number")
