@@ -3,13 +3,13 @@ gaji = int(input('Masukan Gaji Karyawan Anda: '))
 if gaji > 1000000:
     print("Selamat Menikmati Uang hasil Kerja Anda")
 elif gaji == 0:
-    print("Kasian Kena PHK")
+    print("Anda tidak digaji :(")
 else:
-    print("UMR BANGET")
+    print("Jangan Boros ya.")
 
 
 ###########
-numbers = [6, 6, 3, 8, -3, 2, 5, 44, 12]
+numbers = [13, 15, 20, 22, -99, 50, 4]
 
 sum = int(input('Masukan Angka Bebas: '))
 # sum = 0
@@ -24,3 +24,5 @@ elif sum == 0:
     print("Zero")
 else:
     print("Negative number")
+
+
