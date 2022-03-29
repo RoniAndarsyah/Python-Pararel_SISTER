@@ -1,15 +1,15 @@
-f = open ('file_studikasus.txt', 'w') #menulis dalam format text.
+f = open ('file_studikasus.txt', 'w')
 nama = input('Masukan Nama Anda :')
 alamat = input('Masukan Alamat Anda :')
 hobi = input('Masukan Hobi Anda :')
-f.write (nama + '\n') #menulis string didalam file yang telah dibuka
+f.write (nama + '\n') 
 
-f.write (alamat + '\n') #menulis string didalam file yang telah dibuka
+f.write (alamat + '\n') 
 f.write (hobi + '\n')
 
-f.close() #menutup file
-f = open ('file_studikasus.txt') #membuka file pada direktori saat ini untuk dibaca
-content = f.read() #membaca string dari file
-print (content) #menampilkan konten yang ada didalam file
+f.close()
+f = open ('file_studikasus.txt') 
+content = f.read() 
+print (content)
 
-f.close() #menutup file
+f.close() 
