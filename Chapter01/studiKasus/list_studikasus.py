@@ -10,8 +10,10 @@ print(dict_perusahaan)
 dict_perusahaan["nama_perusahaan"]
 print(dict_perusahaan["nama_perusahaan"])
 
-dict_2 = {1:"Udin Wazowski", 2:"Test Doang", 3:"Siapa Ya"}
+dict_2 = {"key 1":"Udin Wazowski", 2:"Test Doang", "key 3":"Siapa Ya"}
 print(dict_2)
+dict_2[2]
+print(dict_2[2])
 
 status_perusahaan = ("Aktif", "Nonaktif") #tuple
 print(status_perusahaan)

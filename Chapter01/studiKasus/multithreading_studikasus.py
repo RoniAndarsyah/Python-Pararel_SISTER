@@ -4,12 +4,12 @@ import threading
 
 if __name__ == "__main__":
     start_time = time.time()
-    count = 10
-    procs = 1   
+    size = 1000
+    procs = 10   
     process = []
     for i in range(0, procs):
         out_list = list()
-        thread = threading.Thread(target=totalKaryawan(count,out_list))
+        thread = threading.Thread(target=totalKaryawan(size,out_list))
         process.append(thread)
 
     for j in process:
