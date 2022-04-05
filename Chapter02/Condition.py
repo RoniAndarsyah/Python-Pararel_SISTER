@@ -27,7 +27,7 @@ class Consumer(threading.Thread):
             condition.notify()
 
     def run(self):
-        for i in range(20):
+        for i in range(5):
             time.sleep(2)
             self.consume()
 
@@ -50,7 +50,7 @@ class Producer(threading.Thread):
             condition.notify()
 
     def run(self):
-        for i in range(20):
+        for i in range(5):
             time.sleep(0.5)
             self.produce()
 
