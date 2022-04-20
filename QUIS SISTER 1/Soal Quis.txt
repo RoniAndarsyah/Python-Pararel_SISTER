@@ -4,4 +4,4 @@ masukan Quis di Repo QUis Sister 1
 
 1. Buat Folder nama masing-masing
 2. Kerjakan Chapter 2 
-3. Upload, Push ke Git saya
+3. Upload, Push ke Gi
