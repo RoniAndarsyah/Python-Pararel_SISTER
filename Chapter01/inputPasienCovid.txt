@@ -1,0 +1,7 @@
+NIK : 1234
+Nama : nur
+Alamat : sumedang
+Umur : 21
+Jenis Kelamin : perempuan
+No Hp : 091802150986
+Gejala : batuk
