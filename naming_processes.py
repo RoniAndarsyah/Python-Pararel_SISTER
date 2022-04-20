@@ -9,7 +9,7 @@ def myFunc():
 
 if __name__ == '__main__':
     process_with_name = multiprocessing.Process\
-                        (name='Ini Mah Iseng aja',\
+                        (name='ini nama proses ya',\
                          target=myFunc)
 
     #process_with_name.daemon = True
