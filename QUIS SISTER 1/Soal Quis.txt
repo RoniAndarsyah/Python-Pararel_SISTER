@@ -1,0 +1,3 @@
+Langkah Pertama..
+Fork dulu Repository Python Pararel_SISTER
+masukan Quis di Repo QUis Sister 1
