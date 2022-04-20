@@ -15,28 +15,24 @@ from random import randint
 threadLock = threading.Lock()
 
 class MyPasien (Thread):
-   def _init_(self, name, duration):
-      Thread._init_(self)
+   def __init__(self, name, duration):
+      Thread.__init__(self)
       self.name = name
       self.duration = duration
    def run(self):
-      #Acquire the Lock
-      threadLock.acquire()      
       print ("---> " + self.name + \
-             "  pasien, ID pasiens "\
+             " pasien diberikan no daftar "\
              + str(os.getpid()) + "\n")
-      threadLock.release()
       time.sleep(self.duration)
-      print ("---> " + self.name + " selesai\n")
-      #Release the Lock
+      print ("---> " + self.name + " sudah di berikan\n")
 
 
 def main():
     start_time = time.time()
     
     # Thread Creation
-    thread1 = MyPasien("daftar pasien {}", randint(1,10))
-    thread2 = MyPasien("daftar pasien {}", randint(1,10))
+    thread1 = MyPasien("pasien notify: ", randint(1,10))
+   
     
 
     # Thread Running
@@ -49,18 +45,12 @@ def main():
     thread2.join()
     
 
-  
-    # End
+    # End 
     print("End")
 
     #Execution Time
-    print("--- %s detik ---" % (time.time() - start_time))
+    print("--- %s seconds ---" % (time.time() - start_time))
 
 
 if __name__ == "__main__":
     main()
-
-    
-
-    
-#class_lock2
