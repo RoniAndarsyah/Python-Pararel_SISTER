@@ -1,34 +1,16 @@
-# Dalam program ini, 
-# kami memeriksa apakah angkanya positif atau negatif atau nol dan
-# tampilkan pesan yang sesuai
-
-num = 1
-
-# Try these two variations as well:
-# num = 0
-# num = -4.5
-
-if num > 0:
-    print("Positive number")
-elif num == 0:
-    print("Zero")
+masuk=int(input("Masukkan Jam Masuk = "))
+keluar=int(input("Masukkan Jam Keluar ="))
+lama=keluar-masuk
+payment=12000
+print("Lama Mengajar = ", lama, "jam")
+if lama <=1:
+    satu_jam_pertama=payment
+    print("Biaya Mengajar= Rp", satu_jam_pertama)
+elif lama <10:
+    biaya_selanjutnya = (lama+1)*3000+payment
+    print("Biaya Mengajar =  Rp", biaya_selanjutnya)
+elif lama >= 10:
+    print("Biaya Mengajar =  Rp", 1000000)
 else:
-    print("Negative number")
-
-
-
-# Program to find the sum of all numbers stored in a list
-
-# List of numbers
-numbers = [6, 6, 3, 8, -3, 2, 5, 44, 12]
-
-# variable to store the sum
-sum = 0
-
-# iterate over the list
-for val in numbers:
-	sum = sum+val
-
-# Output: The sum is 48
-print("The sum is", sum)
-
+    print("nul")
+    

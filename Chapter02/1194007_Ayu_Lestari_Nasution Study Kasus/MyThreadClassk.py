@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 20 12:14:55 2022
+
+@author: Acer
+"""
+
 import time
 import os
 from random import randint

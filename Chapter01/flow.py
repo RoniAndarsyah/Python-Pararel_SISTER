@@ -4,37 +4,30 @@
 # In this program, we check if the number is positive or negative or zero and 
 # display an appropriate message
 
-num = 1
-if num > 0:
-    print("Positive number")
-elif num == 0:
-    print("Zero")
+# Flow Control
+
+x=7
+if x>10: 
+    print("x is big.") 
+elif x > 0: 
+        print("x is small.")
 else:
-    print("Negative number")
+            print("x is not positive.")
 
+# Array
 
-# FOR
-# Program to find the sum of all numbers stored in a list
-numbers = [6, 6, 3, 8, -3, 2, 5, 44, 12]
-sum = 0
-for val in numbers:
-	sum = sum+val
+# Variabel array
+genap = [14,24,56,80]
+ganjil = [13,55,73,23]
 
-# Output: The sum is 48
-print("The sum is", sum)
+nap = 0
+jil = 0
 
+# Buat looping for menggunakanvariable dari array  yang udah dibuat
+for val in genap:
+    nap = nap+val
+    for val in ganjil:
+        jil = jil+val
 
-#WHILE
-# Program to add natural numbers upto sum = 1+2+3+...+n
-
-n = 10
-# initialize sum and counter
-sum = 0
-i = 1
-while i <= n:
-    sum = sum + i
-    i = i+1    # update counter
-
-# print the sum
-print("The sum is", sum)
-
+print("Ini adalah bilangan Genap", nap )
+print("Ini adalah bilangan Ganjil", jil )

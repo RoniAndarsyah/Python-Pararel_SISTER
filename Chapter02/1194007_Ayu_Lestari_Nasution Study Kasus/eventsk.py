@@ -1,3 +1,10 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 20 10:46:32 2022
+
+@author: Acer
+"""
+
 import logging
 import threading
 import time
@@ -19,7 +26,7 @@ class Pasien(threading.Thread):
             time.sleep(2)
             event.wait()
             item = items.pop()
-            logging.info('Pasien notify: pasien {} menuju ruang dokter {}'\
+            logging.info('Pasien notify: {} pasien menuju ruang dokter {}'\
                          .format(item, self.name))
 
 class Dokter(threading.Thread):
