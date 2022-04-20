@@ -12,21 +12,21 @@ item = 0
 
 
 def daftar():
-    logging.info('pasien menunggu no daftar')
+    logging.info(' no daftar is waiting')
     semaphore.acquire()
-    logging.info('daftar notify: item number {}'.format(item))
+    logging.info('daftar notify: non daftar pasien {}'.format(item))
 
 
 def periksa():
     global item
     time.sleep(3)
-    item = random.randint(0, 1000)
-    logging.info('periksa notify: item number {}'.format(item))
+    item = random.randint(0, 20)
+    logging.info('periksa notify: no daftar {}'.format(item))
     semaphore.release()
 
 
 def main():
-    for i in range(10):
+    for i in range(8):
         t1 = threading.Thread(target=daftar)
         t2 = threading.Thread(target=periksa)
 
