@@ -29,7 +29,7 @@ class Producer(threading.Thread):
     def run(self):
         for i in range(5):
             time.sleep(2)
-            item = random.randint(0, 100)
+            item = random.randint(0, 10)
             items.append(item)
             logging.info('Producer notify: item {} appended by {}'\
                          .format(item, self.name))

@@ -2,11 +2,11 @@ import concurrent.futures
 import time
 time.clock = time.time
 
-number_list = list(range(1, 11))
+number_list = list(range(1, 5))
 
 
 def count(number):
-    for i in range(0,10000000):
+    for i in range(9999):
         i += 1
     return i*number
 

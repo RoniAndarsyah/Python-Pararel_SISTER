@@ -23,7 +23,7 @@ def main():
         # Menunggu semua thread selesai
     for thread in threads:
         thread.join()
-    print('Alhamdulillah, sampai pada tujuan dengan selamat') # Thread selesai
+    print('Alhamdulillah, sampai ditempat tujuan dengan selamat') # Thread selesai
 
 if __name__ == "__main__":
     main()
