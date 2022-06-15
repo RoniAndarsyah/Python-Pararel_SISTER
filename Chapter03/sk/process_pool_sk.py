@@ -1,15 +1,14 @@
 #Using a Process Pool – Chapter 3: Process Based Parallelism
 import multiprocessing
 
-def function_square(data):
-    result = data*data
-    return result
+def pangkat_2_plus_2(data):
+    return data*data+2
 
 
 if __name__ == '__main__':
-    inputs = list(range(0,100))
+    inputs = list(range(0, 10))
     pool = multiprocessing.Pool(processes=4)
-    pool_outputs = pool.map(function_square, inputs)
+    pool_outputs = pool.map(pangkat_2_plus_2, inputs)
 
     pool.close() 
     pool.join()  

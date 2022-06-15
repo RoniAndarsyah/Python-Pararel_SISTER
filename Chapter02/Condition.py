@@ -14,16 +14,13 @@ class Consumer(threading.Thread):
         super().__init__(*args, **kwargs)
 
     def consume(self):
-
         with condition:
-
             if len(items) == 0:
                 logging.info('no items to consume')
                 condition.wait()
 
             items.pop()
             logging.info('consumed 1 item')
-
             condition.notify()
 
     def run(self):
@@ -37,16 +34,13 @@ class Producer(threading.Thread):
         super().__init__(*args, **kwargs)
 
     def produce(self):
-
         with condition:
-
             if len(items) == 10:
                 logging.info('items produced {}. Stopped'.format(len(items)))
                 condition.wait()
 
             items.append(1)
             logging.info('total items {}'.format(len(items)))
-
             condition.notify()
 
     def run(self):

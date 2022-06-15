@@ -19,8 +19,7 @@ class Consumer(threading.Thread):
             time.sleep(2)
             event.wait()
             item = items.pop()
-            logging.info('Consumer notify: {} popped by {}'\
-                         .format(item, self.name))
+            logging.info('Consumer notify: {} popped by {}'.format(item, self.name))
 
 class Producer(threading.Thread):
     def __init__(self, *args, **kwargs):
@@ -31,8 +30,7 @@ class Producer(threading.Thread):
             time.sleep(2)
             item = random.randint(0, 100)
             items.append(item)
-            logging.info('Producer notify: item {} appended by {}'\
-                         .format(item, self.name))
+            logging.info('Producer notify: item {} appended by {}'.format(item, self.name))
             event.set()
             event.clear()
 

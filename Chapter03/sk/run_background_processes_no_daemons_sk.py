@@ -4,7 +4,7 @@ import time
 def foo():
     name = multiprocessing.current_process().name
     print ("Starting %s \n" %name)
-    if name == 'background_process':
+    if name == 'bg_process':
         for i in range(0,5):
             print('---> %d \n' %i)
         time.sleep(1)
@@ -16,11 +16,11 @@ def foo():
     
 
 if __name__ == '__main__':
-    background_process = multiprocessing.Process(name='background_process', target=foo)
-    background_process.daemon = True
+    bg_process = multiprocessing.Process(name='bg_process', target=foo)
+    bg_process.daemon = False
 
-    NO_background_process = multiprocessing.Process(name='NO_background_process', target=foo)
-    NO_background_process.daemon = False
+    no_bg_process = multiprocessing.Process(name='no_bg_process', target=foo)
+    no_bg_process.daemon = False
 
-    background_process.start()
-    NO_background_process.start()
+    bg_process.start()
+    no_bg_process.start()
