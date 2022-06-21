@@ -9,7 +9,7 @@ def Program_A(end_time, loop):
         print ("Program A Selesai. Menjalankan program selanjutnya. . .")
         loop.call_later(1, Program_B, end_time, loop)
     else:
-        print ("Timeout. Program tidak bisa di jalanlan lagi. . .")
+        print ("Timeout. Program tidak bisa di jalankan lagi. . .")
         loop.stop()
 
 def Program_B(end_time, loop):
@@ -19,7 +19,7 @@ def Program_B(end_time, loop):
         print ("Program B Selesai. Menjalankan program selanjutnya. . .")
         loop.call_later(1, Program_C, end_time, loop)
     else:
-        print ("Timeout. Program tidak bisa di jalanlan lagi. . .")
+        print ("Timeout. Program tidak bisa di jalankan lagi. . .")
         loop.stop()
 
 def Program_C(end_time, loop):
@@ -29,7 +29,7 @@ def Program_C(end_time, loop):
         print ("Program C Selesai. Kembali ke program awal. . .")
         loop.call_later(1, Program_A, end_time, loop)
     else:
-        print ("Timeout. Program tidak bisa di jalanlan lagi. . .")
+        print ("Timeout. Program tidak bisa di jalankan lagi. . .")
         loop.stop()
 
 

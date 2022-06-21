@@ -27,7 +27,7 @@ def Program1(transition_value):
     else:
         result = yield from Program2(input_value)
 
-    return output_value + 'Menjalankan program 1 %s' % result
+    return output_value + 'Menjalankan program 1a %s' % result
 
 
 @asyncio.coroutine
