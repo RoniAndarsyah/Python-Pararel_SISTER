@@ -4,7 +4,7 @@
 
 from celery import Celery
 
-app = Celery('addTask',broker='amqp://guest@localhost//')
+app = Celery('addTask',broker='amqp://guest@localhost:5672//')
 
 @app.task
 def add(x, y):

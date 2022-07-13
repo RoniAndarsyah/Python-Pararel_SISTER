@@ -64,4 +64,3 @@ if __name__ == "__main__":
     #call the test on the gpu
     gpu_result = test_gpu_vector_sum(a, b)
     assert (la.norm(cpu_result - gpu_result)) < 1e-5
-        

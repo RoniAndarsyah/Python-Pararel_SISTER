@@ -11,11 +11,3 @@ def sum_reduce(a, b):
 
 got = sum_reduce(A)
 print("result = " , got)
-
-
-
-
-
-
-
-
