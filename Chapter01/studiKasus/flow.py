@@ -7,10 +7,10 @@
 # Flow Control
 
 x=7
-if x>10: 
-    print("x is big.") 
+if x >10: 
+    print("x is the value is big.") 
 elif x > 0: 
-        print("x is small.")
+        print("x the value is small.")
 else:
             print("x is not positive.")
 

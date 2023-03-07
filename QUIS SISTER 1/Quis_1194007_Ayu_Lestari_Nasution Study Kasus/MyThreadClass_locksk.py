@@ -1,7 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 20 11:20:40 2022
+
+@author: Acer
+"""
+
+import threading
 import time
 import os
-from random import randint
 from threading import Thread
+from random import randint
+
+# Lock Definition
+threadLock = threading.Lock()
 
 class MyPasien (Thread):
    def __init__(self, name, duration):
@@ -45,5 +56,3 @@ if __name__ == "__main__":
     main()
 
     
-
-

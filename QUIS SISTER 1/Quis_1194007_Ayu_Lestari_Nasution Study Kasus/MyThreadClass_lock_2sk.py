@@ -1,7 +1,18 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Wed Apr 20 12:17:34 2022
+
+@author: Acer
+"""
+
+import threading
 import time
 import os
-from random import randint
 from threading import Thread
+from random import randint
+
+# Lock Definition
+threadLock = threading.Lock()
 
 class MyPasien (Thread):
    def __init__(self, name, duration):
@@ -13,15 +24,15 @@ class MyPasien (Thread):
              " pasien diberikan no daftar "\
              + str(os.getpid()) + "\n")
       time.sleep(self.duration)
-      print ("---> " + self.name + " over\n")
+      print ("---> " + self.name + " sudah di berikan\n")
 
 
 def main():
     start_time = time.time()
     
     # Thread Creation
-    thread1 = MyPasien("no daftar pasien ", randint(1,10))
-    thread2 = MyPasien("no daftar pasien", randint(1,10))
+    thread1 = MyPasien("pasien notify: ", randint(1,10))
+   
     
 
     # Thread Running
@@ -43,7 +54,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-    
-
-
