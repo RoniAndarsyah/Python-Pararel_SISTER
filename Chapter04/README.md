@@ -6,6 +6,8 @@
 ![image](https://user-images.githubusercontent.com/15622730/224488227-37dd2223-9975-457e-803d-d9441d30899a.png)
 Silahkan update PATH nya
 ![image](https://user-images.githubusercontent.com/15622730/224488420-b595b5c0-8608-45ef-9fc5-32938685c7aa.png)
+![image](https://user-images.githubusercontent.com/15622730/224488486-8fd5a07e-05e5-4aab-9f17-4ce6687f4961.png)
+
 
 
 ![image](https://user-images.githubusercontent.com/15622730/224486731-efeab535-cea0-431c-a422-be57738e0983.png)
