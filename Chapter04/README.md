@@ -5,6 +5,8 @@
 3. Jika menemukan seperti ini
 ![image](https://user-images.githubusercontent.com/15622730/224488227-37dd2223-9975-457e-803d-d9441d30899a.png)
 Silahkan update PATH nya
+![image](https://user-images.githubusercontent.com/15622730/224488420-b595b5c0-8608-45ef-9fc5-32938685c7aa.png)
+
 
 ![image](https://user-images.githubusercontent.com/15622730/224486731-efeab535-cea0-431c-a422-be57738e0983.png)
 <br>
