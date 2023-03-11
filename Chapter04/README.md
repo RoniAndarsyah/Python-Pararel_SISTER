@@ -16,9 +16,11 @@ Cek PATH
 1. Klik run dan ketikan "sysdm.cpl
 2. ![image](https://user-images.githubusercontent.com/15622730/224488830-467373b4-d3ea-41b9-8ea3-bfab4d9fb73b.png)
 3. Pilih Advanced, Environment Variables
+4. ![image](https://user-images.githubusercontent.com/15622730/224489163-959312a7-81ff-46a9-bb8f-20039bef8309.png)
 
 
 
+## Instal Conda
 ![image](https://user-images.githubusercontent.com/15622730/224486731-efeab535-cea0-431c-a422-be57738e0983.png)
 <br>
 Sampai berhasil
