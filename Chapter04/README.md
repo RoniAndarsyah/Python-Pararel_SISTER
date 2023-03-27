@@ -5,8 +5,16 @@
 ```python
 pip install mpi4py
 ```
-2. Install Conda dan Packages
-3. Jika menemukan seperti ini
+![image](https://user-images.githubusercontent.com/15622730/227829653-7723f08c-2183-43c5-bf56-ccea598b5328.png)
+2. Instalasi msmpisetup nya disini [https://www.microsoft.com/en-us/download/details.aspx?id=57467]
+3. ![image](https://user-images.githubusercontent.com/15622730/227829935-f13067ca-a718-4c06-b14d-87f640382a99.png)
+4. 
+
+![image](https://user-images.githubusercontent.com/15622730/227829797-9bb843bb-cfb8-4f99-9e43-d1cf1704ed3a.png)
+
+
+6. Install Conda dan Packages
+7. Jika menemukan seperti ini
 ![image](https://user-images.githubusercontent.com/15622730/224488227-37dd2223-9975-457e-803d-d9441d30899a.png)
 Silahkan update PATH nya
 ![image](https://user-images.githubusercontent.com/15622730/224488420-b595b5c0-8608-45ef-9fc5-32938685c7aa.png)
@@ -15,6 +23,8 @@ tambahkan setx PATH "%PATH%;[URL]"
 ![image](https://user-images.githubusercontent.com/15622730/224488652-33d037c9-3e14-475c-a958-4a081904c32b.png)
 Cek PATH
 ![image](https://user-images.githubusercontent.com/15622730/224488724-258dcad5-d44d-41e7-b5b7-d371ba4e21e1.png)
+
+
 ## Memasukan Environment tanpa script
 1. Klik run dan ketikan "sysdm.cpl
 2. ![image](https://user-images.githubusercontent.com/15622730/224488830-467373b4-d3ea-41b9-8ea3-bfab4d9fb73b.png)
