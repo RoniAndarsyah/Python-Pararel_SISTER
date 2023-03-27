@@ -1,12 +1,12 @@
 # Langkah untuk Chapter 4
 
 ## Tahapan yang harus dilakukan
-*. Lakukan instalasi mpi4py
+* Lakukan instalasi mpi4py
 ```python
 pip install mpi4py
 ```
 ![image](https://user-images.githubusercontent.com/15622730/227829653-7723f08c-2183-43c5-bf56-ccea598b5328.png)
-*. Instalasi msmpisetup nya disini [https://www.microsoft.com/en-us/download/details.aspx?id=57467]
+* Instalasi msmpisetup nya disini [https://www.microsoft.com/en-us/download/details.aspx?id=57467]
 ![image](https://user-images.githubusercontent.com/15622730/227829935-f13067ca-a718-4c06-b14d-87f640382a99.png)
  
 
