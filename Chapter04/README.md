@@ -1,7 +1,11 @@
 # Langkah untuk Chapter 4
 
-1. Instal Condanya
-2. Instal Packages
+## Tahapan yang harus dilakukan
+1. Lakukan instalasi mpi4py
+```python
+pip install mpi4py
+```
+2. Install Conda dan Packages
 3. Jika menemukan seperti ini
 ![image](https://user-images.githubusercontent.com/15622730/224488227-37dd2223-9975-457e-803d-d9441d30899a.png)
 Silahkan update PATH nya
@@ -11,14 +15,6 @@ tambahkan setx PATH "%PATH%;[URL]"
 ![image](https://user-images.githubusercontent.com/15622730/224488652-33d037c9-3e14-475c-a958-4a081904c32b.png)
 Cek PATH
 ![image](https://user-images.githubusercontent.com/15622730/224488724-258dcad5-d44d-41e7-b5b7-d371ba4e21e1.png)
-
-## Tahapan yang harus dilakukan
-1. Lakukan instalasi mpi4py
-```python
-pip install mpi4py
-```
-2. 
-
 ## Memasukan Environment tanpa script
 1. Klik run dan ketikan "sysdm.cpl
 2. ![image](https://user-images.githubusercontent.com/15622730/224488830-467373b4-d3ea-41b9-8ea3-bfab4d9fb73b.png)
