@@ -1,4 +1,7 @@
 # Langkah untuk Chapter 4
+Dokumentasi Mpi4py
+* https://mpi4py.readthedocs.io/en/stable/index.html
+* Dokumen lengkap https://mpi4py.github.io/mpi4py.pdf
 
 ## Tahapan yang harus dilakukan
 1. Lakukan instalasi mpi4py
