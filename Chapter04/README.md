@@ -1,8 +1,26 @@
 # Langkah untuk Chapter 4
+Dokumentasi Mpi4py
+* https://mpi4py.readthedocs.io/en/stable/index.html
+* Dokumen lengkap https://mpi4py.github.io/mpi4py.pdf
 
-1. Instal Condanya
-2. Instal Packages
-3. Jika menemukan seperti ini
+## Tahapan yang harus dilakukan
+1. Lakukan instalasi mpi4py
+```python
+pip install mpi4py
+```
+![image](https://user-images.githubusercontent.com/15622730/227829653-7723f08c-2183-43c5-bf56-ccea598b5328.png)<br>
+2. Instalasi msmpisetup nya disini [https://www.microsoft.com/en-us/download/details.aspx?id=57467]
+![image](https://user-images.githubusercontent.com/15622730/227829935-f13067ca-a718-4c06-b14d-87f640382a99.png)
+![image](https://user-images.githubusercontent.com/15622730/227830575-6d4011bb-05bc-4ff5-84af-9b7ce81d574d.png)
+3. Ujicoba Hasilnya
+```python
+mpiexec -n 9 python namafilenya.py
+```
+![image](https://user-images.githubusercontent.com/15622730/227830878-24bceb84-d724-44ab-b03e-4b7246d5b760.png)
+Ini adalah assincronus (tidak berurutan) 
+
+4. Install Conda dan Packages
+5. Jika menemukan seperti ini
 ![image](https://user-images.githubusercontent.com/15622730/224488227-37dd2223-9975-457e-803d-d9441d30899a.png)
 Silahkan update PATH nya
 ![image](https://user-images.githubusercontent.com/15622730/224488420-b595b5c0-8608-45ef-9fc5-32938685c7aa.png)
@@ -11,6 +29,7 @@ tambahkan setx PATH "%PATH%;[URL]"
 ![image](https://user-images.githubusercontent.com/15622730/224488652-33d037c9-3e14-475c-a958-4a081904c32b.png)
 Cek PATH
 ![image](https://user-images.githubusercontent.com/15622730/224488724-258dcad5-d44d-41e7-b5b7-d371ba4e21e1.png)
+
 
 ## Memasukan Environment tanpa script
 1. Klik run dan ketikan "sysdm.cpl
